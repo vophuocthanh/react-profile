@@ -11,9 +11,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <a href="!#" className="scroll-smooth">
-          <img src={logo1} alt="logo" className="object-cover w-14 h-14" />
-        </a>
+        <img src={logo1} alt="logo" className="object-cover w-14 h-14" />
       </div>
       <div>
         <ul className="items-center hidden gap-6 mdl:inline-flex lg:gap-10">

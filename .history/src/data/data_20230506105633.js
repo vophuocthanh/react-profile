@@ -1,4 +1,4 @@
-import { SiAntdesign } from "react-icons/si";
+import { SiProgress, SiAntdesign } from "react-icons/si";
 
 // Features Data
 export const featuresData = [

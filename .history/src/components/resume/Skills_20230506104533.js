@@ -106,6 +106,9 @@ const Skills = () => {
       </div>
       <div className="w-full lgl:w-1/2">
         <div className="flex flex-col gap-4 py-12 font-titleFont">
+          <p className="text-sm text-designColor tracking-[4px] uppercase">
+            Features
+          </p>
           <h2 className="text-3xl font-bold md:text-4xl">Tools</h2>
         </div>
         <div className="flex flex-col gap-6">

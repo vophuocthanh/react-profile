@@ -11,9 +11,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <a href="!#" className="scroll-smooth">
-          <img src={logo1} alt="logo" className="object-cover w-14 h-14" />
-        </a>
+        <img src={logo1} alt="logo" className="object-cover w-14 h-14" />
       </div>
       <div>
         <ul className="items-center hidden gap-6 mdl:inline-flex lg:gap-10">
@@ -45,11 +43,13 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="relative flex flex-col gap-8 py-2">
               <div>
-                <img
-                  className="object-cover w-14 h-14"
-                  src={logo1}
-                  alt="logo"
-                />
+                <a href="!#">
+                  <img
+                    className="object-cover w-14 h-14"
+                    src={logo1}
+                    alt="logo"
+                  />
+                </a>
                 <p className="mt-2 text-sm text-gray-400">
                   I am a Frontend Developer. I love programming, especially
                   creating websites with good user interfaces, to meet the needs

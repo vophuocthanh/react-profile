@@ -13,7 +13,7 @@ const Resume = () => {
       <div className="flex items-center justify-center text-center">
         <Title title="" des="My Resume" />
       </div>
-      <div className="">
+      <div>
         <ul className="grid items-center w-full grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
           <li
             onClick={() =>
@@ -73,6 +73,21 @@ const Resume = () => {
           >
             Achievements
           </li> */}
+        </ul>
+        <ul>
+          <li
+            onClick={() =>
+              setEducationData(false) &
+              setSkillData(true) &
+              setExperienceData(false) &
+              setAchievementData(false)
+            }
+            className={`${
+              skillData ? "border-designColor rounded-lg" : "border-transparent"
+            } resumeLi`}
+          >
+            Professional Skills
+          </li>
         </ul>
       </div>
       {educationData && <Education />}
