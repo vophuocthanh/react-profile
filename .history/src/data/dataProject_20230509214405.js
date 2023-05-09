@@ -3,6 +3,7 @@ import {
   project4,
   project5,
   projectOne,
+  projectThree,
   projectTwo,
 } from "../assets";
 export const dataProject = [

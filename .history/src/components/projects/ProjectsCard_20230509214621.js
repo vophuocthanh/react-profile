@@ -1,4 +1,5 @@
 import React from "react";
+import { dataProject } from "../../data/dataProject";
 
 const ProjectsCard = ({
   item: { title, desc, src, linkGit, demo, technology },
@@ -25,7 +26,7 @@ const ProjectsCard = ({
                 </a>
               </span>
               <span className="inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor">
-                <a href={demo} target="_blank" rel="noreferrer">
+                <a href={demo}>
                   <i class="bx bx-globe"></i>
                 </a>
               </span>

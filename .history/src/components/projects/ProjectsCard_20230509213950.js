@@ -1,4 +1,5 @@
 import React from "react";
+import { dataProject } from "../../data/dataProject";
 
 const ProjectsCard = ({
   item: { title, desc, src, linkGit, demo, technology },
@@ -20,12 +21,12 @@ const ProjectsCard = ({
             </h3>
             <div className="flex gap-2">
               <span className="inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor">
-                <a href={linkGit} target="_blank" rel="noreferrer">
+                <a href={linkGit}>
                   <i class="bx bxl-github"></i>
                 </a>
               </span>
               <span className="inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor">
-                <a href={demo} target="_blank" rel="noreferrer">
+                <a href={demo}>
                   <i class="bx bx-globe"></i>
                 </a>
               </span>
@@ -34,8 +35,9 @@ const ProjectsCard = ({
           <p className="mt-3 text-sm tracking-wide duration-300 hover:text-gray-100">
             {desc}
           </p>
-          <p className="mt-3 text-sm font-bold tracking-wide duration-300 hover:text-designColor">
-            Technology: {technology}
+          <p className="mt-3 text-sm font-bold tracking-wide duration-300 hover:text-gray-100">
+            Technology:
+            {technology}
           </p>
         </div>
       </div>

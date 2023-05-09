@@ -3,6 +3,7 @@ import {
   project4,
   project5,
   projectOne,
+  projectThree,
   projectTwo,
 } from "../assets";
 export const dataProject = [
@@ -36,7 +37,7 @@ export const dataProject = [
   {
     id: 4,
     title: "Nike Shop",
-    desc: "The Nike Run Club App has everything you need to start running, keep running.",
+    desc: "The Nike Run Club App has everything you need to start running, keep running, and enjoy running more. Never laced up? We got you. Need a coach to keep pace or a friend to keep you company?",
     src: project4,
     linkGit: "https://github.com/vophuocthanh/nike-shop-app",
     demo: "https://vophuocthanh.github.io/nike-shop-app/",

@@ -6,8 +6,6 @@ import Skills from "./Skills";
 const Resume = () => {
   const [educationData, setEducationData] = useState(true);
   const [skillData, setSkillData] = useState(false);
-  const [experienceData, setExperienceData] = useState(false);
-  const [achievementData, setAchievementData] = useState(false);
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex items-center justify-center text-center">
@@ -41,7 +39,7 @@ const Resume = () => {
               skillData ? "border-designColor rounded-lg" : "border-transparent"
             } resumeLi`}
           >
-            Skills
+            Professional Skills
           </li>
           {/* <li
             onClick={() =>

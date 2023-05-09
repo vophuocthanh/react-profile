@@ -1,4 +1,5 @@
 import React from "react";
+import { dataProject } from "../../data/dataProject";
 
 const ProjectsCard = ({
   item: { title, desc, src, linkGit, demo, technology },
