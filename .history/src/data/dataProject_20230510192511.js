@@ -2,7 +2,6 @@ import {
   project3,
   project4,
   project5,
-  project6,
   projectOne,
   projectTwo,
 } from "../assets";
@@ -53,10 +52,10 @@ export const dataProject = [
     technology: "#HTML5, #CSS3",
   },
   {
-    id: 6,
+    id: 5,
     title: "Yariga App",
     desc: "Developing",
-    src: project6,
+    src: project5,
     linkGit: "https://github.com/vophuocthanh/project-nextjs",
     demo: "https://yariga-nextjs.vercel.app/",
     technology: "#Tailwindcss, #NextJS",

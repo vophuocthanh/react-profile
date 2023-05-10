@@ -2,7 +2,6 @@ import {
   project3,
   project4,
   project5,
-  project6,
   projectOne,
   projectTwo,
 } from "../assets";
@@ -52,13 +51,13 @@ export const dataProject = [
     demo: "https://vophuocthanh.github.io/shoppe/",
     technology: "#HTML5, #CSS3",
   },
-  {
-    id: 6,
-    title: "Yariga App",
-    desc: "Developing",
-    src: project6,
-    linkGit: "https://github.com/vophuocthanh/project-nextjs",
-    demo: "https://yariga-nextjs.vercel.app/",
-    technology: "#Tailwindcss, #NextJS",
-  },
+  // {
+  //   id: 5,
+  //   title: "Shoppe App",
+  //   desc: "Shoppe clone app",
+  //   src: project5,
+  //   linkGit: "https://github.com/vophuocthanh/shoppe",
+  //   demo: "https://yariga-nextjs.vercel.app/",
+  //   technology: "#Tailwindcss, #NextJS",
+  // },
 ];
