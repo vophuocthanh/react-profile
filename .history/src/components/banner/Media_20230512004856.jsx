@@ -9,39 +9,23 @@ const Media = () => {
         <h2 className="mb-4 text-base uppercase font-titleFont">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a
-              href="https://www.facebook.com/thanh.vophuoc.50"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.facebook.com/thanh.vophuoc.50">
               <img src={navIcon1} alt="" />
             </a>
           </span>
           <span className="bannerIcon">
-            <a
-              href="https://github.com/vophuocthanh"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://github.com/vophuocthanh">
               <i className="bx bxl-github"></i>
             </a>
           </span>
           <span className="bannerIcon">
-            <a
-              href="https://www.linkedin.com/in/v%C3%B5-ph%C6%B0%E1%BB%9Bc-th%E1%BA%A1nh-747813233/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="bx bxl-linkedin"></i>
+            <a href="https://www.linkedin.com/in/v%C3%B5-ph%C6%B0%E1%BB%9Bc-th%E1%BA%A1nh-747813233/">
+              <i class="bx bxl-linkedin"></i>
             </a>
           </span>
           <span className="bannerIcon">
-            <a
-              href="https://twitter.com/ThanhVP03"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="bx bxl-twitter"></i>
+            <a href="https://twitter.com/ThanhVP03">
+              <i class="bx bxl-twitter"></i>
             </a>
           </span>
         </div>

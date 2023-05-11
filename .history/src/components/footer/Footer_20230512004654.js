@@ -9,11 +9,7 @@ const Footer = () => {
         <img className="object-cover w-14 h-14" src={logo1} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a
-              href="https://www.facebook.com/thanh.vophuoc.50"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.facebook.com/thanh.vophuoc.50">
               <img src={navIcon1} alt="" />
             </a>
           </span>

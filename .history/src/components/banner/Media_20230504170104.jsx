@@ -4,9 +4,9 @@ import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import navIcon1 from "../../assets/images/nav-icon2.svg";
 const Media = () => {
   return (
-    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+    <div className="flex flex-col justify-between gap-6 xl:flex-row lgl:gap-0">
       <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+        <h2 className="mb-4 text-base uppercase font-titleFont">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a href="https://www.facebook.com/thanh.vophuoc.50">
@@ -22,7 +22,7 @@ const Media = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">
+        <h2 className="mb-4 text-base uppercase font-titleFont">
           BEST SKILL ON
         </h2>
         <div className="flex gap-4">
@@ -39,7 +39,7 @@ const Media = () => {
             <SiFigma />
           </span>
           <span className="bannerIcon">
-            <i class="bx bxl-github"></i>
+            <i className="bx bxl-github"></i>
           </span>
         </div>
       </div>

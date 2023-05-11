@@ -96,7 +96,7 @@ const Navbar = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="bx bxl-github"></i>
+                      <i class="bx bxl-github"></i>
                     </a>
                   </span>
                   <span className="bannerIcon">
@@ -105,7 +105,7 @@ const Navbar = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="bx bxl-linkedin"></i>
+                      <i class="bx bxl-linkedin"></i>
                     </a>
                   </span>
                   <span className="bannerIcon">
@@ -114,7 +114,7 @@ const Navbar = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="bx bxl-twitter"></i>
+                      <i class="bx bxl-twitter"></i>
                     </a>
                   </span>
                 </div>
