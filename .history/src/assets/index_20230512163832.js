@@ -29,7 +29,6 @@ export {
   project4,
   project5,
   project6,
-  project7,
   testimonialOne,
   testimonialTwo,
   quote,
